@@ -1,0 +1,10 @@
+{
+	"author": "Constantine",
+	"email": "orchardman@evergarden.ru",
+	"website": "https://evergarden.ru/blog/smusher",
+	"version": "1.0.0",
+	"releaseDate": "2020-09-01",
+	"license": "MIT",
+	"compatible": "3.13.0",
+	"notes": ""
+}
