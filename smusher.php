@@ -1,4 +1,5 @@
 <?php
+		if(!defined("BLUDIT")) { die("You seek for fresh air and peace of mind, Ivanov? I'm in the North, waiting for you."); }
 		$filemask = $config['filemask'];
 		if($config['exif'] == 0){
 			$exif = 'false';
