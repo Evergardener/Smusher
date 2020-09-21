@@ -1,5 +1,7 @@
 <?php
 		if(!defined("BLUDIT")) { die("You seek for fresh air and peace of mind, Ivanov? I'm in the North, waiting for you."); }
+		$allowed_smush = array('gif', 'png', 'jpg', 'jpeg', 'bmp');
+		if (in_array($fileExtension, $allowed_smush) ){
 		$filemask = $config['filemask'];
 		if($config['exif'] == 0){
 			$exif = 'false';
@@ -36,6 +38,7 @@
 			file_put_contents($smusher_directory . DS . 'settings' . DS . 'settings.json', json_encode($config));
 			}
 		
+		}
 		}
 	
 	//Smush end
